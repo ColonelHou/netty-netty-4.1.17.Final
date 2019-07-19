@@ -19,7 +19,6 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.http.HttpServerCodec;
-import io.netty.handler.codec.http.HttpServerExpectContinueHandler;
 import io.netty.handler.ssl.SslContext;
 
 public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketChannel> {
@@ -36,8 +35,8 @@ public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketCh
         if (sslCtx != null) {
             p.addLast(sslCtx.newHandler(ch.alloc()));
         }
+        // http请求响应编解码; netty未提供http请求路由, 比如spring中requestmapping
         p.addLast(new HttpServerCodec());
-        p.addLast(new HttpServerExpectContinueHandler());
         p.addLast(new HttpHelloWorldServerHandler());
     }
 }

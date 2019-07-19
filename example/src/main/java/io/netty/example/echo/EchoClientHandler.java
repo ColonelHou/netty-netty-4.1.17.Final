@@ -20,33 +20,43 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
+import java.util.Date;
+
 /**
  * Handler implementation for the echo client.  It initiates the ping-pong
  * traffic between the echo client and server by sending the first message to
  * the server.
+ * 入站
  */
 public class EchoClientHandler extends ChannelInboundHandlerAdapter {
 
-    private final ByteBuf firstMessage;
+//    private final ByteBuf firstMessage;
+    private ByteBuf firstMessage;
 
     /**
      * Creates a client-side handler.
      */
     public EchoClientHandler() {
-        firstMessage = Unpooled.buffer(EchoClient.SIZE);
+        /*firstMessage = Unpooled.buffer(EchoClient.SIZE);
         for (int i = 0; i < firstMessage.capacity(); i ++) {
             firstMessage.writeByte((byte) i);
-        }
+        }*/
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
+        firstMessage = Unpooled.copiedBuffer(("Hello Server, I'm " + ctx.channel().localAddress().toString()).getBytes());
         ctx.writeAndFlush(firstMessage);
     }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        ctx.write(msg);
+        ByteBuf buf = (ByteBuf) msg;
+        ByteBuf byteBuf = Unpooled.buffer(buf.readableBytes());
+        buf.readBytes(byteBuf);
+        System.out.println("接收到服务端消息: " + new String(byteBuf.array()) + new Date().toString());
+        ByteBuf mm = Unpooled.copiedBuffer("Client ChannelRead write to Server".getBytes());
+        ctx.write(mm);
     }
 
     @Override

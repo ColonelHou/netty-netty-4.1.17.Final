@@ -18,7 +18,7 @@ package io.netty.example.http.upload;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.HttpContent;
-import io.netty.handler.codec.http.HttpUtil;
+import io.netty.handler.codec.http.HttpHeaders;
 import io.netty.handler.codec.http.HttpObject;
 import io.netty.handler.codec.http.HttpResponse;
 import io.netty.handler.codec.http.LastHttpContent;
@@ -36,18 +36,18 @@ public class HttpUploadClientHandler extends SimpleChannelInboundHandler<HttpObj
         if (msg instanceof HttpResponse) {
             HttpResponse response = (HttpResponse) msg;
 
-            System.err.println("STATUS: " + response.status());
-            System.err.println("VERSION: " + response.protocolVersion());
+            System.err.println("STATUS: " + response.getStatus());
+            System.err.println("VERSION: " + response.getProtocolVersion());
 
             if (!response.headers().isEmpty()) {
-                for (CharSequence name : response.headers().names()) {
-                    for (CharSequence value : response.headers().getAll(name)) {
+                for (String name : response.headers().names()) {
+                    for (String value : response.headers().getAll(name)) {
                         System.err.println("HEADER: " + name + " = " + value);
                     }
                 }
             }
 
-            if (response.status().code() == 200 && HttpUtil.isTransferEncodingChunked(response)) {
+            if (response.getStatus().code() == 200 && HttpHeaders.isTransferEncodingChunked(response)) {
                 readingChunks = true;
                 System.err.println("CHUNKED CONTENT {");
             } else {

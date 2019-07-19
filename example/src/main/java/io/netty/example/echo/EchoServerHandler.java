@@ -15,19 +15,40 @@
  */
 package io.netty.example.echo;
 
+import io.netty.buffer.*;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.SimpleChannelInboundHandler;
+
+import java.util.Date;
 
 /**
  * Handler implementation for the echo server.
+ * ChannelHandler处理入/出站数据的应用程序逻辑的容器, 格式转换, 异常处理
  */
 @Sharable
-public class EchoServerHandler extends ChannelInboundHandlerAdapter {
+public class EchoServerHandler extends ChannelInboundHandlerAdapter { // SimpleChannelInboundHandler
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        ctx.write(msg);
+
+        ByteBuf bf = (ByteBuf) msg;
+        ByteBuf byteBuf = Unpooled.buffer(bf.readableBytes());
+        ByteBuf directBuf = Unpooled.directBuffer(bf.readableBytes());
+        ByteBuf wrapperBuf = Unpooled.wrappedBuffer("".getBytes());
+//        PooledByteBufAllocator
+        Unpooled.unreleasableBuffer(bf);
+        bf.readBytes(byteBuf);
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        ByteBuf resp = Unpooled.copiedBuffer("Send to Client".getBytes());
+        System.out.println("接收到客户端消息: " + new String(byteBuf.array()) + new Date().toString());
+        ctx.writeAndFlush(resp);
     }
 
     @Override

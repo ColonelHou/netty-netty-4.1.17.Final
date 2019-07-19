@@ -45,4 +45,19 @@ public class WebSocketFrameHandler extends SimpleChannelInboundHandler<WebSocket
             throw new UnsupportedOperationException(message);
         }
     }
+
+    @Override
+    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("Handler Added :" + ctx.channel());
+    }
+
+    @Override
+    public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("Handler Removed :" + ctx.channel());
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        ctx.close();
+    }
 }

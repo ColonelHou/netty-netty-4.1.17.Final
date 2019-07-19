@@ -30,6 +30,16 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
 /**
  * An HTTP server that sends back the content of the received HTTP request
  * in a pretty plaintext form.
+ *
+ * 执行顺序
+ * =========================handlerAdded
+ * ========================channelRegistered
+ * ========================channelActive
+ * GET
+ * /
+ * 请求到来
+ * ========================channelUnregistered
+ * =========================handlerRemoved
  */
 public final class HttpHelloWorldServer {
 
