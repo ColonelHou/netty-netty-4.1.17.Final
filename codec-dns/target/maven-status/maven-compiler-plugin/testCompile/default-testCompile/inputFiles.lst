@@ -1,0 +1,6 @@
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsResponseTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsQueryTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DefaultDnsRecordDecoderTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DefaultDnsRecordEncoderTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/AbstractDnsRecordTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsRecordTypeTest.java

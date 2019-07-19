@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/BiDnsQueryLifecycleObserver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/BiDnsQueryLifecycleObserverFactory.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DefaultDnsCache.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DefaultDnsServerAddresses.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DefaultDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsAddressResolverGroup.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsCache.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsCacheEntry.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverBuilder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverContext.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverException.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsQueryContext.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsQueryContextManager.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsQueryLifecycleObserver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsQueryLifecycleObserverFactory.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsServerAddresses.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsServerAddressStream.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/DnsServerAddressStreamProviders.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/InflightNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/MultiDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/NoopDnsCache.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/NoopDnsQueryLifecycleObserver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/NoopDnsQueryLifecycleObserverFactory.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/RotationalDnsServerAddresses.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/RoundRobinDnsAddressResolverGroup.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/SequentialDnsServerAddressStream.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/SequentialDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/ShuffledDnsServerAddressStream.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/SingletonDnsServerAddresses.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/SingletonDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/TraceDnsQueryLifecycleObserver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/TraceDnsQueryLifeCycleObserverFactory.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/UniSequentialDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/main/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProvider.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverClientSubnetTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/DnsServerAddressesTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/SearchDomainTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/TestDnsServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver-dns/src/test/java/io/netty/resolver/dns/UnixResolverDnsServerAddressStreamProviderTest.java">
+</file>
+</checkstyle>

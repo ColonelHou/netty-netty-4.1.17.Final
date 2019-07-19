@@ -14,7 +14,7 @@ public class ThriftServer {
         // TSimpleServer简单的单线程; TThreadPoolServer, THsHaServer半同步半异步的处理
         TNonblockingServerSocket socket = new TNonblockingServerSocket(9999);
         THsHaServer.Args arg = new THsHaServer.Args(socket).minWorkerThreads(2).maxWorkerThreads(4);
-        PersonService.Processor<PersonServiceImpl> processor = new PersonService.Processor<>(new PersonServiceImpl());
+        PersonService.Processor<PersonServiceImpl> processor = new PersonService.Processor(new PersonServiceImpl());
 
         // 协议层
         arg.protocolFactory(new TCompactProtocol.Factory());

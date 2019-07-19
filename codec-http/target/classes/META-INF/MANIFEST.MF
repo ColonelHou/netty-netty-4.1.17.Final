@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1563540065549
+Build-Jdk: 1.8.0_181
+Built-By: houningning
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: http://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Codec/HTTP
+Bundle-SymbolicName: io.netty.codec-http
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.17.Final
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.netty.handler.codec.http;uses:="io.netty.buffer,io.ne
+ tty.channel,io.netty.channel.embedded,io.netty.handler.codec,io.netty.h
+ andler.codec.compression,io.netty.handler.codec.http.cookie,io.netty.ha
+ ndler.stream,io.netty.util";version="4.1.17",io.netty.handler.codec.htt
+ p.cookie;version="4.1.17",io.netty.handler.codec.http.cors;uses:="io.ne
+ tty.channel,io.netty.handler.codec.http";version="4.1.17",io.netty.hand
+ ler.codec.http.multipart;uses:="io.netty.buffer,io.netty.channel,io.net
+ ty.handler.codec,io.netty.handler.codec.http,io.netty.handler.stream,io
+ .netty.util";version="4.1.17",io.netty.handler.codec.http.websocketx;us
+ es:="io.netty.buffer,io.netty.channel,io.netty.handler.codec,io.netty.h
+ andler.codec.http,io.netty.handler.stream,io.netty.util,io.netty.util.i
+ nternal.logging";version="4.1.17",io.netty.handler.codec.http.websocket
+ x.extensions;uses:="io.netty.channel,io.netty.handler.codec,io.netty.ha
+ ndler.codec.http.websocketx";version="4.1.17",io.netty.handler.codec.ht
+ tp.websocketx.extensions.compression;uses:="io.netty.channel,io.netty.h
+ andler.codec.http.websocketx.extensions";version="4.1.17",io.netty.hand
+ ler.codec.rtsp;uses:="io.netty.buffer,io.netty.channel,io.netty.handler
+ .codec.http,io.netty.util";version="4.1.17",io.netty.handler.codec.spdy
+ ;uses:="io.netty.buffer,io.netty.channel,io.netty.handler.codec,io.nett
+ y.handler.codec.http,io.netty.util";version="4.1.17"
+Import-Package: com.jcraft.jzlib;resolution:=optional,io.netty.buffer;ve
+ rsion="[4.1,5)";resolution:=optional,io.netty.channel;version="[4.1,5)"
+ ,io.netty.channel.embedded;version="[4.1,5)",io.netty.handler.codec,io.
+ netty.handler.codec.base64;version="[4.1,5)",io.netty.handler.codec.com
+ pression;version="[4.1,5)",io.netty.handler.ssl;version="[4.1,5)";resol
+ ution:=optional,io.netty.handler.stream;version="[4.1,5)";resolution:=o
+ ptional,io.netty.util;version="[4.1,5)";resolution:=optional,io.netty.u
+ til.concurrent;version="[4.1,5)";resolution:=optional,io.netty.util.int
+ ernal;version="[4.1,5)";resolution:=optional,io.netty.util.internal.log
+ ging;version="[4.1,5)";resolution:=optional,sun.nio.ch;resolution:=opti
+ onal,org.eclipse.jetty.npn;version="[1,2)";resolution:=optional,org.ecl
+ ipse.jetty.alpn;version="[1,2)";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-2.4.1.201501161923

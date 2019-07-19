@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatClientHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="an empty line after a short line that ends with {" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" column="13" severity="error" message="Got an exception - expecting EOF, found &apos;}&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/chat/Test.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/discard/DiscardClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/discard/DiscardClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/discard/DiscardServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/discard/DiscardServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/echo/EchoClient.java">
+<error line="21" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - io.netty.channel.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/echo/EchoClientHandler.java">
+<error line="48" severity="error" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/echo/EchoServer.java">
+<error line="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - io.netty.channel.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/echo/EchoServerHandler.java">
+<error line="18" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - io.netty.buffer.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/echo/TestHttpServerHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="7" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - io.netty.handler.codec.http.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/BigIntegerDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/FactorialServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/factorial/NumberEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/file/FileServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/file/FileServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatClientHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatClientInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="an empty line after a short line that ends with {" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatServerHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/HeartBeatServerInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/heartbeat/OtherClassStatic.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/cors/HttpCorsServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/cors/HttpCorsServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/cors/OkResponseHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/file/HttpStaticFileServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/file/HttpStaticFileServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/file/HttpStaticFileServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/upload/HttpUploadServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerBenchmarkPage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/client/WebSocketClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/client/WebSocketClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketFrameHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketIndexPageHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServerIndexPage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServerInitializer.java">
+<error line="61" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/ComcreteDecorator1.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3" column="50" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/ComcreteDecorator2.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3" column="50" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/Component.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/ConcreteComponent.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3" column="52" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/Decorator.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="6" column="44" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/decorator/Main.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/io/X.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/localecho/LocalEcho.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/localecho/LocalEchoClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/localecho/LocalEchoServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/BufferScattGather.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="15" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="44" column="13" severity="error" message="Got an exception - expecting EOF, found &apos;}&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+<error line="56" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/chat/NioClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="49" column="41" severity="error" message="Got an exception - expecting EOF, found &apos;InputStreamReader&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/chat/NioServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="37" column="21" severity="error" message="Got an exception - expecting EOF, found &apos;try&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+<error line="69" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/EncoderDecoderTest.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="42" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="49" column="9" severity="error" message="Got an exception - expecting EOF, found &apos;}&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+<error line="67" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="68" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/MemMappFile.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="36" column="39" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="37" column="39" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/NioTest.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="5" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.io.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="17" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="29" column="30" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="35" column="35" severity="error" message="Should use uppercase &apos;L&apos;." source="com.puppycrawl.tools.checkstyle.checks.UpperEllCheck"/>
+<error line="51" column="30" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="66" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="73" severity="error" message="Line is longer than 120 characters (found 147)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="73" column="145" severity="error" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="74" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="85" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="101" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/nio/SelectorTest.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="34" column="19" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="48" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="85" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/objectecho/ObjectEchoClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/objectecho/ObjectEchoClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/objectecho/ObjectEchoServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/objectecho/ObjectEchoServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/ocsp/Digester.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/ocsp/OcspClientExample.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/ocsp/OcspRequestBuilder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/ocsp/OcspServerExample.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/ocsp/OcspUtils.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/portunification/PortUnificationServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/portunification/PortUnificationServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/gen/DataInfo.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="7" column="23" severity="error" message="&apos;{&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" column="23" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="76" column="32" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="83" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="142" column="19" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="152" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="162" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="172" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="188" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="204" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="219" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="229" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="245" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="257" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="259" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="260" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="273" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="276" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="279" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="288" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="291" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="294" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="298" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="316" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="318" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="321" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="323" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="326" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="328" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="331" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="456" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="466" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="481" column="42" severity="error" message="Empty if block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="488" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="490" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="492" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="518" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="521" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="525" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="529" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="573" column="76" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="581" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="601" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="633" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="659" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="685" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="709" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="730" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="741" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="767" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="793" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="812" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="818" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="820" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="860" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="866" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/netty/MyDataInfo.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="7" column="25" severity="error" message="&apos;{&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" column="25" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="5" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="88" column="32" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="95" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="121" severity="error" message="Line is longer than 120 characters (found 164)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="191" column="19" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="199" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="201" severity="error" message="Line is longer than 120 characters (found 142)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="233" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="237" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="270" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="274" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="278" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="304" column="17" severity="error" message="Variable &apos;dataBodyCase_&apos; explicitly initialized to &apos;0&apos; (default value for its type)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="350" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="357" severity="error" message="Line is longer than 120 characters (found 158)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="441" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="443" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="444" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="475" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="493" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="496" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="525" severity="error" message="Line is longer than 120 characters (found 126)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="527" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="529" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="531" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="534" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="538" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="542" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="548" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="681" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="689" severity="error" message="Line is longer than 120 characters (found 126)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="691" severity="error" message="Line is longer than 120 characters (found 144)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="706" column="42" severity="error" message="Empty if block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="713" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="741" severity="error" message="Line is longer than 120 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="744" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="810" column="82" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="818" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="845" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="885" column="19" severity="error" message="Variable &apos;dataBodyCase_&apos; explicitly initialized to &apos;0&apos; (default value for its type)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="907" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="914" severity="error" message="Line is longer than 120 characters (found 160)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="933" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="940" severity="error" message="Line is longer than 120 characters (found 199)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1000" severity="error" message="Line is longer than 120 characters (found 149)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1057" severity="error" message="Line is longer than 120 characters (found 182)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1064" severity="error" message="Line is longer than 120 characters (found 187)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1071" column="21" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
+<error line="1076" severity="error" message="Line is longer than 120 characters (found 183)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1136" severity="error" message="Line is longer than 120 characters (found 141)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1193" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1200" severity="error" message="Line is longer than 120 characters (found 175)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1207" column="21" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
+<error line="1212" severity="error" message="Line is longer than 120 characters (found 183)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1272" severity="error" message="Line is longer than 120 characters (found 141)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1329" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1336" severity="error" message="Line is longer than 120 characters (found 175)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1343" column="21" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
+<error line="1347" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1353" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1355" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1395" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1458" column="32" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="1465" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1524" column="19" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1532" severity="error" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1534" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1544" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1554" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1570" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1586" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1601" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1611" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1627" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1639" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1641" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1642" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1655" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1658" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1661" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1670" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1673" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1676" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1680" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1696" severity="error" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1698" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1700" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1703" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1705" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1708" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1710" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1713" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1838" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="1846" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1848" severity="error" message="Line is longer than 120 characters (found 140)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1863" column="42" severity="error" message="Empty if block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="1870" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1872" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1874" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1900" severity="error" message="Line is longer than 120 characters (found 129)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1903" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1907" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1911" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="1955" column="80" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1963" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1983" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2015" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2041" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="2067" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2091" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2112" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2123" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2149" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="2175" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2194" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2200" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2202" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="2242" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="2290" column="32" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="2297" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2350" column="19" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2360" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="2370" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2380" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="2396" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="2412" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2423" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2425" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2426" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2439" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2442" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2451" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2454" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2457" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2476" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2478" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2481" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2483" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2486" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2607" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2617" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="2632" column="42" severity="error" message="Empty if block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="2639" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2641" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2667" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="2670" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2674" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2718" column="76" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="2726" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="2741" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2773" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2799" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="2825" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2849" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2870" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="2876" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2882" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="2884" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="2924" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="2972" column="32" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="2979" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3032" column="19" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3042" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="3052" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3062" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3078" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3094" column="14" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3105" column="12" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3107" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3108" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3121" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3124" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3133" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3136" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3139" column="11" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3158" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3160" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3163" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3165" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3168" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3289" column="21" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3299" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="3314" column="42" severity="error" message="Empty if block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="3321" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3323" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3349" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="3352" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3356" column="13" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3400" column="76" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="3408" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="3423" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3455" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3481" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3507" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3531" column="16" severity="error" message="Unnecessary parentheses around return value." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3552" column="20" severity="error" message="Unnecessary parentheses around assignment right-hand side." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="3558" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3564" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="3566" severity="error" message="two or more consecutive empty lines" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="3606" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="3612" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3617" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3622" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="3627" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocClientHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocClientInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" severity="error" message="an empty line after a short line that ends with {" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocServerHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocServerInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/protobuf/ProtocTest.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/proxy/HexDumpProxy.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/proxy/HexDumpProxyBackendHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/proxy/HexDumpProxyFrontendHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/proxy/HexDumpProxyInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/rxtx/RxtxClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/rxtx/RxtxClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/multihoming/SctpMultiHomingEchoClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/multihoming/SctpMultiHomingEchoServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/SctpEchoClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/SctpEchoClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/SctpEchoServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/sctp/SctpEchoServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/securechat/SecureChatServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="14" severity="error" message="an empty line after a short line that ends with {" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/DirectClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/RelayHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/SocksServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/SocksServerConnectHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/SocksServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/SocksServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/socksproxy/SocksServerUtils.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/HttpResponseClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/SpdyClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/SpdyClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/SpdyClientStreamIdHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/client/SpdyFrameLogger.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/server/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/server/SpdyOrHttpHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/server/SpdyServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/server/SpdyServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/spdy/server/SpdyServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/telnet/TelnetServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/client/ThriftClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="33" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/interfaces/DataException.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="9" column="71" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" severity="error" message="Line is longer than 120 characters (found 198)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="12" severity="error" message="Line is longer than 120 characters (found 128)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" severity="error" message="Line is longer than 120 characters (found 178)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" column="176" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="15" severity="error" message="Line is longer than 120 characters (found 183)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="15" column="181" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="16" severity="error" message="Line is longer than 120 characters (found 172)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="170" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="18" severity="error" message="Line is longer than 120 characters (found 129)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="19" severity="error" message="Line is longer than 120 characters (found 123)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="10" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="22" column="10" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="23" column="10" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="20" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="28" column="23" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="29" column="17" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="62" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="92" column="41" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="95" severity="error" message="Line is longer than 120 characters (found 168)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="96" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="98" severity="error" message="Line is longer than 120 characters (found 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="100" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="216" column="28" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="224" column="30" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="232" column="25" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="234" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="249" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="274" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="276" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="277" column="41" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="282" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="284" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="287" column="41" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="288" column="41" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="290" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="292" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="296" column="43" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="297" column="43" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="299" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="301" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="305" column="38" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="306" column="38" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="308" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="310" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="322" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="326" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="330" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="405" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="415" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="457" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="461" column="7" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="463" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="471" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="479" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="487" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="502" severity="error" message="Line is longer than 120 characters (found 125)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="529" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="542" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="567" severity="error" message="Line is longer than 120 characters (found 123)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="586" severity="error" message="Line is longer than 120 characters (found 146)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/interfaces/Person.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="9" column="71" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" severity="error" message="Line is longer than 120 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="12" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" severity="error" message="Line is longer than 120 characters (found 180)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" column="178" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="15" severity="error" message="Line is longer than 120 characters (found 167)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="15" column="165" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="16" severity="error" message="Line is longer than 120 characters (found 176)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="174" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="18" severity="error" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="10" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="21" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="28" column="16" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="29" column="20" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="62" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="94" column="16" severity="error" message="Variable &apos;__isset_bitfield&apos; explicitly initialized to &apos;0&apos; (default value for its type)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="95" column="41" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="98" severity="error" message="Line is longer than 120 characters (found 168)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="99" severity="error" message="Line is longer than 120 characters (found 140)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="101" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="103" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="214" column="29" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="222" column="25" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="230" column="29" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="232" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="247" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="272" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="274" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="275" column="34" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="280" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="282" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="285" column="42" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="286" column="42" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="288" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="290" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="294" column="37" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="295" column="37" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="297" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="299" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="303" column="41" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="304" column="41" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="306" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="308" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="320" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="324" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="328" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="329" column="38" severity="error" message="Unnecessary parentheses around identifier &apos;married&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="403" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="409" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="433" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="453" column="7" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="455" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="463" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="471" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="479" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="517" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="574" severity="error" message="Line is longer than 120 characters (found 146)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/interfaces/PersonService.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="9" column="71" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="5" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="17" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="17" column="5" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="23" severity="error" message="Line is longer than 120 characters (found 156)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="5" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="25" severity="error" message="Line is longer than 120 characters (found 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="25" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="25" column="5" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="31" column="25" severity="error" message="&apos;{&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="31" column="25" severity="error" message="&apos;}&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" column="5" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="72" severity="error" message="Line is longer than 120 characters (found 158)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="96" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="103" severity="error" message="Line is longer than 120 characters (found 142)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="112" severity="error" message="Line is longer than 120 characters (found 205)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="116" severity="error" message="Line is longer than 120 characters (found 157)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="118" severity="error" message="Line is longer than 120 characters (found 139)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="125" severity="error" message="Line is longer than 120 characters (found 326)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="131" severity="error" message="Line is longer than 120 characters (found 144)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="142" severity="error" message="Line is longer than 120 characters (found 156)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="148" severity="error" message="Line is longer than 120 characters (found 144)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="157" severity="error" message="Line is longer than 120 characters (found 313)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="163" severity="error" message="Line is longer than 120 characters (found 135)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="174" severity="error" message="Line is longer than 120 characters (found 156)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="178" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="182" severity="error" message="Line is longer than 120 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="185" severity="error" message="Line is longer than 120 characters (found 140)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="188" severity="error" message="Line is longer than 120 characters (found 141)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="192" severity="error" message="Line is longer than 120 characters (found 256)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="198" severity="error" message="Line is longer than 120 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="216" severity="error" message="Line is longer than 120 characters (found 127)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="254" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="261" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="264" severity="error" message="Line is longer than 120 characters (found 156)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="268" severity="error" message="Line is longer than 120 characters (found 278)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="268" column="143" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="274" severity="error" message="Line is longer than 120 characters (found 151)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="283" severity="error" message="Line is longer than 120 characters (found 178)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="290" column="92" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="314" column="62" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="318" severity="error" message="Line is longer than 120 characters (found 136)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="321" column="37" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="321" column="41" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="321" column="49" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="334" severity="error" message="Line is longer than 120 characters (found 168)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="335" column="49" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="339" severity="error" message="Line is longer than 120 characters (found 131)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="348" severity="error" message="Line is longer than 120 characters (found 176)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="354" column="92" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="378" column="62" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="382" severity="error" message="Line is longer than 120 characters (found 136)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="385" column="37" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="385" column="41" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="385" column="49" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="398" severity="error" message="Line is longer than 120 characters (found 157)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="399" column="38" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="401" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="405" severity="error" message="Line is longer than 120 characters (found 216)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="406" severity="error" message="Line is longer than 120 characters (found 141)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="408" severity="error" message="Line is longer than 120 characters (found 182)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="408" column="180" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="410" severity="error" message="Line is longer than 120 characters (found 142)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="411" severity="error" message="Line is longer than 120 characters (found 136)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="413" column="12" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="417" column="23" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="446" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="478" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="479" severity="error" message="Line is longer than 120 characters (found 142)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="480" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="490" column="5" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="544" column="31" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="546" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="555" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="576" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="578" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="579" column="54" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="584" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="586" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="589" column="44" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="590" column="44" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="592" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="594" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="606" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="665" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="686" severity="error" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="692" severity="error" message="Line is longer than 120 characters (found 139)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="694" severity="error" message="Line is longer than 120 characters (found 137)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="698" column="9" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="723" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="734" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="744" severity="error" message="Line is longer than 120 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="747" severity="error" message="Line is longer than 120 characters (found 137)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="753" severity="error" message="Line is longer than 120 characters (found 136)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="761" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="765" severity="error" message="Line is longer than 120 characters (found 224)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="766" severity="error" message="Line is longer than 120 characters (found 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="768" severity="error" message="Line is longer than 120 characters (found 180)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="768" column="178" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="769" severity="error" message="Line is longer than 120 characters (found 193)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="769" column="191" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="771" severity="error" message="Line is longer than 120 characters (found 144)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="772" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="774" column="12" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="775" column="12" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="779" column="22" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="780" column="29" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="811" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="843" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="844" severity="error" message="Line is longer than 120 characters (found 139)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="846" severity="error" message="Line is longer than 120 characters (found 152)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="847" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="858" column="5" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="916" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="942" column="30" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="950" column="43" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="952" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="964" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="987" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="989" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="990" column="56" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="995" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="997" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1000" column="43" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1001" column="43" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1003" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1005" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1009" column="49" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1010" column="49" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1012" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1014" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1026" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1030" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1092" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1128" severity="error" message="Line is longer than 120 characters (found 124)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1134" severity="error" message="Line is longer than 120 characters (found 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1136" severity="error" message="Line is longer than 120 characters (found 139)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1140" column="9" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1175" severity="error" message="Line is longer than 120 characters (found 140)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1191" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1195" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1201" severity="error" message="Line is longer than 120 characters (found 137)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1204" severity="error" message="Line is longer than 120 characters (found 139)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1223" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1240" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1244" severity="error" message="Line is longer than 120 characters (found 180)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1245" severity="error" message="Line is longer than 120 characters (found 132)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1247" severity="error" message="Line is longer than 120 characters (found 178)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1247" column="176" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1249" severity="error" message="Line is longer than 120 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1250" severity="error" message="Line is longer than 120 characters (found 127)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1252" column="12" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="1256" column="21" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1285" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1317" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1318" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1329" column="5" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1383" column="29" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1385" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1394" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1415" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1417" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1418" column="45" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1423" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1425" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1428" column="42" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1429" column="42" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1431" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1433" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1445" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1504" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1534" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1536" severity="error" message="Line is longer than 120 characters (found 128)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1540" column="9" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1566" severity="error" message="Line is longer than 120 characters (found 129)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1577" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1590" severity="error" message="Line is longer than 120 characters (found 128)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1596" severity="error" message="Line is longer than 120 characters (found 127)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1605" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1609" severity="error" message="Line is longer than 120 characters (found 188)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1610" severity="error" message="Line is longer than 120 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1612" severity="error" message="Line is longer than 120 characters (found 193)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1612" column="191" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1614" severity="error" message="Line is longer than 120 characters (found 135)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1615" severity="error" message="Line is longer than 120 characters (found 129)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1617" column="12" severity="error" message="&apos;@.&apos; annotation modifier does not preceed non-annotation modifiers." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="1621" column="29" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1650" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1682" severity="error" message="Line is longer than 120 characters (found 170)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1683" severity="error" message="Line is longer than 120 characters (found 152)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1684" severity="error" message="Line is longer than 120 characters (found 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1694" column="5" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1748" column="43" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1750" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1759" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1780" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1782" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1783" column="47" severity="error" message="&apos;cast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="1788" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1790" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1793" column="49" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1794" column="49" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="1796" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1798" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1810" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="1893" severity="error" message="Line is longer than 120 characters (found 125)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1895" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1899" column="9" severity="error" message="&apos;{&apos; should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="1901" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1910" severity="error" message="trailing whitespace" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="1925" severity="error" message="Line is longer than 120 characters (found 131)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1936" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="1949" severity="error" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1962" severity="error" message="Line is longer than 120 characters (found 129)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1974" severity="error" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/server/PersonServiceImpl.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/server/ThriftServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/thrift/X.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/bytes/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/message/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/Config.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerBase.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerOne.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerTwo.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvous/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerBase.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerOne.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerTwo.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/udt/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/uptime/UptimeClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/uptime/UptimeClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/uptime/UptimeServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/uptime/UptimeServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockClient.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockClientHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockClientInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockProtocol.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockServerHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/worldclock/WorldClockServerInitializer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/zeroCopy/NewIOClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/zeroCopy/NewIOServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="10" column="60" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/zeroCopy/OldClient.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/example/src/main/java/io/netty/example/zeroCopy/OldServer.java">
+<error line="0" severity="error" message="missing copyright header" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="26" severity="error" message="an empty line before }" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="26" column="35" severity="error" message="Empty catch block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+</file>
+</checkstyle>

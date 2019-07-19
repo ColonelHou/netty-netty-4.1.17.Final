@@ -1,0 +1,5 @@
+io/netty/handler/codec/stomp/StompHeadersTest.class
+io/netty/handler/codec/stomp/StompTestConstants.class
+io/netty/handler/codec/stomp/StompSubframeDecoderTest.class
+io/netty/handler/codec/stomp/StompSubframeAggregatorTest.class
+io/netty/handler/codec/stomp/StompSubframeEncoderTest.class

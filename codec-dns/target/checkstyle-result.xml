@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/AbstractDnsMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/AbstractDnsOptPseudoRrRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/AbstractDnsRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsQuery.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsQueryDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsQueryEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsResponseDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DatagramDnsResponseEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsOptEcsRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsPtrRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsQuery.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsQuestion.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsRawRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsRecordDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsRecordEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DefaultDnsResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsMessageUtil.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsOpCode.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsOptEcsRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsOptPseudoRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsPtrRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsQuery.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsQuestion.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsRawRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsRecord.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsRecordDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsRecordEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsRecordType.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsResponseCode.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/DnsSection.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/main/java/io/netty/handler/codec/dns/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/AbstractDnsRecordTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DefaultDnsRecordDecoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DefaultDnsRecordEncoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsQueryTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsRecordTypeTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-dns/src/test/java/io/netty/handler/codec/dns/DnsResponseTest.java">
+</file>
+</checkstyle>

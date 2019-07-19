@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyCommand.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyConstants.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessageDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProtocolException.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProtocolVersion.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProxiedProtocol.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxySSLTLV.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyTLV.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxyMessageDecoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxySSLTLVTest.java">
+</file>
+</checkstyle>

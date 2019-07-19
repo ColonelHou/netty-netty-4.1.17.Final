@@ -21,12 +21,12 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.handler.codec.http.Cookie;
-import io.netty.handler.codec.http.CookieDecoder;
 import io.netty.handler.codec.http.DefaultFullHttpResponse;
 import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.HttpContent;
-import io.netty.handler.codec.http.HttpHeaders;
+import io.netty.handler.codec.http.HttpHeaderNames;
+import io.netty.handler.codec.http.HttpUtil;
+import io.netty.handler.codec.http.HttpHeaderValues;
 import io.netty.handler.codec.http.HttpMethod;
 import io.netty.handler.codec.http.HttpObject;
 import io.netty.handler.codec.http.HttpRequest;
@@ -34,17 +34,19 @@ import io.netty.handler.codec.http.HttpResponseStatus;
 import io.netty.handler.codec.http.HttpVersion;
 import io.netty.handler.codec.http.LastHttpContent;
 import io.netty.handler.codec.http.QueryStringDecoder;
-import io.netty.handler.codec.http.ServerCookieEncoder;
+import io.netty.handler.codec.http.cookie.Cookie;
+import io.netty.handler.codec.http.cookie.ServerCookieDecoder;
+import io.netty.handler.codec.http.cookie.ServerCookieEncoder;
 import io.netty.handler.codec.http.multipart.Attribute;
 import io.netty.handler.codec.http.multipart.DefaultHttpDataFactory;
 import io.netty.handler.codec.http.multipart.DiskAttribute;
 import io.netty.handler.codec.http.multipart.DiskFileUpload;
 import io.netty.handler.codec.http.multipart.FileUpload;
+import io.netty.handler.codec.http.multipart.HttpData;
 import io.netty.handler.codec.http.multipart.HttpDataFactory;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder.EndOfDataDecoderException;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder.ErrorDataDecoderException;
-import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder.IncompatibleDataDecoderException;
 import io.netty.handler.codec.http.multipart.InterfaceHttpData;
 import io.netty.handler.codec.http.multipart.InterfaceHttpData.HttpDataType;
 import io.netty.util.CharsetUtil;
@@ -60,7 +62,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static io.netty.buffer.Unpooled.*;
-import static io.netty.handler.codec.http.HttpHeaders.Names.*;
 
 public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObject> {
 
@@ -69,6 +70,8 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
     private HttpRequest request;
 
     private boolean readingChunks;
+
+    private HttpData partialContent;
 
     private final StringBuilder responseContent = new StringBuilder();
 
@@ -88,7 +91,7 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
     }
 
     @Override
-    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         if (decoder != null) {
             decoder.cleanFiles();
         }
@@ -98,7 +101,7 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
     public void channelRead0(ChannelHandlerContext ctx, HttpObject msg) throws Exception {
         if (msg instanceof HttpRequest) {
             HttpRequest request = this.request = (HttpRequest) msg;
-            URI uri = new URI(request.getUri());
+            URI uri = new URI(request.uri());
             if (!uri.getPath().startsWith("/form")) {
                 // Write Menu
                 writeMenu(ctx);
@@ -108,9 +111,9 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
             responseContent.append("WELCOME TO THE WILD WILD WEB SERVER\r\n");
             responseContent.append("===================================\r\n");
 
-            responseContent.append("VERSION: " + request.getProtocolVersion().text() + "\r\n");
+            responseContent.append("VERSION: " + request.protocolVersion().text() + "\r\n");
 
-            responseContent.append("REQUEST_URI: " + request.getUri() + "\r\n\r\n");
+            responseContent.append("REQUEST_URI: " + request.uri() + "\r\n\r\n");
             responseContent.append("\r\n\r\n");
 
             // new getMethod
@@ -121,18 +124,18 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
 
             // new getMethod
             Set<Cookie> cookies;
-            String value = request.headers().get(COOKIE);
+            String value = request.headers().get(HttpHeaderNames.COOKIE);
             if (value == null) {
                 cookies = Collections.emptySet();
             } else {
-                cookies = CookieDecoder.decode(value);
+                cookies = ServerCookieDecoder.STRICT.decode(value);
             }
             for (Cookie cookie : cookies) {
                 responseContent.append("COOKIE: " + cookie + "\r\n");
             }
             responseContent.append("\r\n\r\n");
 
-            QueryStringDecoder decoderQuery = new QueryStringDecoder(request.getUri());
+            QueryStringDecoder decoderQuery = new QueryStringDecoder(request.uri());
             Map<String, List<String>> uriAttributes = decoderQuery.parameters();
             for (Entry<String, List<String>> attr: uriAttributes.entrySet()) {
                 for (String attrVal: attr.getValue()) {
@@ -141,14 +144,14 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
             }
             responseContent.append("\r\n\r\n");
 
-            if (request.getMethod().equals(HttpMethod.GET)) {
+            // if GET Method: should not try to create a HttpPostRequestDecoder
+            if (request.method().equals(HttpMethod.GET)) {
                 // GET Method: should not try to create a HttpPostRequestDecoder
                 // So stop here
                 responseContent.append("\r\n\r\nEND OF GET CONTENT\r\n");
                 // Not now: LastHttpContent will be sent writeResponse(ctx.channel());
                 return;
             }
-
             try {
                 decoder = new HttpPostRequestDecoder(factory, request);
             } catch (ErrorDataDecoderException e1) {
@@ -157,16 +160,9 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
                 writeResponse(ctx.channel());
                 ctx.channel().close();
                 return;
-            } catch (IncompatibleDataDecoderException e1) {
-                // GET Method: should not try to create a HttpPostRequestDecoder
-                // So OK but stop here
-                responseContent.append(e1.getMessage());
-                responseContent.append("\r\n\r\nEND OF GET CONTENT\r\n");
-                writeResponse(ctx.channel());
-                return;
             }
 
-            readingChunks = HttpHeaders.isTransferEncodingChunked(request);
+            readingChunks = HttpUtil.isTransferEncodingChunked(request);
             responseContent.append("Is Chunked: " + readingChunks + "\r\n");
             responseContent.append("IsMultipart: " + decoder.isMultipart() + "\r\n");
             if (readingChunks) {
@@ -224,12 +220,41 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
             while (decoder.hasNext()) {
                 InterfaceHttpData data = decoder.next();
                 if (data != null) {
+                    // check if current HttpData is a FileUpload and previously set as partial
+                    if (partialContent == data) {
+                        logger.info(" 100% (FinalSize: " + partialContent.length() + ")");
+                        partialContent = null;
+                    }
                     try {
                         // new value
                         writeHttpData(data);
                     } finally {
                         data.release();
                     }
+                }
+            }
+            // Check partial decoding for a FileUpload
+            InterfaceHttpData data = decoder.currentPartialHttpData();
+            if (data != null) {
+                StringBuilder builder = new StringBuilder();
+                if (partialContent == null) {
+                    partialContent = (HttpData) data;
+                    if (partialContent instanceof FileUpload) {
+                        builder.append("Start FileUpload: ")
+                            .append(((FileUpload) partialContent).getFilename()).append(" ");
+                    } else {
+                        builder.append("Start Attribute: ")
+                            .append(partialContent.getName()).append(" ");
+                    }
+                    builder.append("(DefinedSize: ").append(partialContent.definedLength()).append(")");
+                }
+                if (partialContent.definedLength() > 0) {
+                    builder.append(" ").append(partialContent.length() * 100 / partialContent.definedLength())
+                        .append("% ");
+                    logger.info(builder.toString());
+                } else {
+                    builder.append(" ").append(partialContent.length()).append(" ");
+                    logger.info(builder.toString());
                 }
             }
         } catch (EndOfDataDecoderException e1) {
@@ -295,32 +320,32 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
         responseContent.setLength(0);
 
         // Decide whether to close the connection or not.
-        boolean close = HttpHeaders.Values.CLOSE.equalsIgnoreCase(request.headers().get(CONNECTION))
-                || request.getProtocolVersion().equals(HttpVersion.HTTP_1_0)
-                && !HttpHeaders.Values.KEEP_ALIVE.equalsIgnoreCase(request.headers().get(CONNECTION));
+        boolean close = request.headers().contains(HttpHeaderNames.CONNECTION, HttpHeaderValues.CLOSE, true)
+                || request.protocolVersion().equals(HttpVersion.HTTP_1_0)
+                && !request.headers().contains(HttpHeaderNames.CONNECTION, HttpHeaderValues.KEEP_ALIVE, true);
 
         // Build the response object.
         FullHttpResponse response = new DefaultFullHttpResponse(
                 HttpVersion.HTTP_1_1, HttpResponseStatus.OK, buf);
-        response.headers().set(CONTENT_TYPE, "text/plain; charset=UTF-8");
+        response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain; charset=UTF-8");
 
         if (!close) {
             // There's no need to add 'Content-Length' header
             // if this is the last response.
-            response.headers().set(CONTENT_LENGTH, buf.readableBytes());
+            response.headers().setInt(HttpHeaderNames.CONTENT_LENGTH, buf.readableBytes());
         }
 
         Set<Cookie> cookies;
-        String value = request.headers().get(COOKIE);
+        String value = request.headers().get(HttpHeaderNames.COOKIE);
         if (value == null) {
             cookies = Collections.emptySet();
         } else {
-            cookies = CookieDecoder.decode(value);
+            cookies = ServerCookieDecoder.STRICT.decode(value);
         }
         if (!cookies.isEmpty()) {
             // Reset the cookies if necessary.
             for (Cookie cookie : cookies) {
-                response.headers().add(SET_COOKIE, ServerCookieEncoder.encode(cookie));
+                response.headers().add(HttpHeaderNames.SET_COOKIE, ServerCookieEncoder.STRICT.encode(cookie));
             }
         }
         // Write the response.
@@ -408,8 +433,8 @@ public class HttpUploadServerHandler extends SimpleChannelInboundHandler<HttpObj
         FullHttpResponse response = new DefaultFullHttpResponse(
                 HttpVersion.HTTP_1_1, HttpResponseStatus.OK, buf);
 
-        response.headers().set(CONTENT_TYPE, "text/html; charset=UTF-8");
-        response.headers().set(CONTENT_LENGTH, buf.readableBytes());
+        response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/html; charset=UTF-8");
+        response.headers().setInt(HttpHeaderNames.CONTENT_LENGTH, buf.readableBytes());
 
         // Write the response.
         ctx.channel().writeAndFlush(response);

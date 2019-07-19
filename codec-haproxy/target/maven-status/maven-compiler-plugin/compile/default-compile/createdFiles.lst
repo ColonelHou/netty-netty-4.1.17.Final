@@ -1,0 +1,13 @@
+io/netty/handler/codec/haproxy/HAProxyTLV.class
+io/netty/handler/codec/haproxy/HAProxyProtocolVersion.class
+io/netty/handler/codec/haproxy/HAProxyCommand.class
+io/netty/handler/codec/haproxy/HAProxyMessageDecoder.class
+io/netty/handler/codec/haproxy/HAProxyProxiedProtocol$TransportProtocol.class
+io/netty/handler/codec/haproxy/HAProxyMessage.class
+io/netty/handler/codec/haproxy/HAProxyProxiedProtocol.class
+io/netty/handler/codec/haproxy/HAProxyMessage$1.class
+io/netty/handler/codec/haproxy/HAProxyTLV$Type.class
+io/netty/handler/codec/haproxy/HAProxyProtocolException.class
+io/netty/handler/codec/haproxy/HAProxyProxiedProtocol$AddressFamily.class
+io/netty/handler/codec/haproxy/HAProxySSLTLV.class
+io/netty/handler/codec/haproxy/HAProxyConstants.class

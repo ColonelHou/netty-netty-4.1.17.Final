@@ -1,0 +1,3 @@
+io/netty/resolver/DefaultHostsFileEntriesResolverTest.class
+io/netty/resolver/HostsFileParserTest.class
+io/netty/resolver/InetSocketAddressResolverTest.class

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1563539991590
+Build-Jdk: 1.8.0_181
+Built-By: houningning
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: http://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Common
+Bundle-SymbolicName: io.netty.common
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.17.Final
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: io.netty.util;uses:="io.netty.util.concurrent";version="
+ 4.1.17",io.netty.util.collection;version="4.1.17",io.netty.util.concurr
+ ent;uses:="io.netty.util.internal";version="4.1.17",io.netty.util.inter
+ nal;uses:="io.netty.util,io.netty.util.concurrent,io.netty.util.interna
+ l.logging,javax.security.cert";version="4.1.17",io.netty.util.internal.
+ logging;version="4.1.17"
+Import-Package: sun.misc;resolution:=optional,javax.security.cert;resolu
+ tion:=optional,org.apache.commons.logging;resolution:=optional;version=
+ "[1.2,2)",org.apache.log4j;resolution:=optional;version="[1.2,2)",org.a
+ pache.logging.log4j;resolution:=optional;version="[2.6,3)",org.apache.l
+ ogging.log4j.message;resolution:=optional;version="[2.6,3)",org.apache.
+ logging.log4j.spi;resolution:=optional;version="[2.6,3)",org.slf4j;reso
+ lution:=optional;version="[1.7,2)",org.slf4j.helpers;resolution:=option
+ al;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-2.4.1.201501161923

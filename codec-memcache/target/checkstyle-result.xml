@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/AbstractMemcacheObject.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/AbstractMemcacheObjectAggregator.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/AbstractMemcacheObjectDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/AbstractMemcacheObjectEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregator.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheOpcodes.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheRequestDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheRequestEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseStatus.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheServerCodec.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/DefaultBinaryMemcacheRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/DefaultBinaryMemcacheResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/DefaultLastMemcacheContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/DefaultMemcacheContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/FullMemcacheMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/LastMemcacheContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/MemcacheContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/MemcacheMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/MemcacheObject.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/main/java/io/netty/handler/codec/memcache/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheDecoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheEncoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheMessageTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregatorTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageRequestTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageResponseTest.java">
+</file>
+</checkstyle>

@@ -55,9 +55,9 @@ public final class EchoServer {
         // 事件循环组, 底层是一个死循环
         // Configure the server.
         //线程池: boss线程池的线程负责处理请求的accept事件
-        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
+        final EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         //线程池: work线程池负责请求的read和write事件; 由对应的Handler处理
-        EventLoopGroup workerGroup = new NioEventLoopGroup();
+        final EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
             // 方法链的调用
             ServerBootstrap b = new ServerBootstrap();

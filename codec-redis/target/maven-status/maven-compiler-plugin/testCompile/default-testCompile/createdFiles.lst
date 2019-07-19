@@ -1,0 +1,3 @@
+io/netty/handler/codec/redis/RedisDecoderTest.class
+io/netty/handler/codec/redis/RedisCodecTestUtil.class
+io/netty/handler/codec/redis/RedisEncoderTest.class

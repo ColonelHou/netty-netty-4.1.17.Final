@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultLastSmtpContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/LastSmtpContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpCommand.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequestEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequests.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpResponse.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpResponseDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpUtils.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpCommandTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpRequestEncoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpResponseDecoderTest.java">
+</file>
+</checkstyle>

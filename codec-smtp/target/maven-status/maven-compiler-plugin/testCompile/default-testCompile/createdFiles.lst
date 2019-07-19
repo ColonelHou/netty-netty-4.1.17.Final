@@ -1,0 +1,3 @@
+io/netty/handler/codec/smtp/SmtpRequestEncoderTest.class
+io/netty/handler/codec/smtp/SmtpResponseDecoderTest.class
+io/netty/handler/codec/smtp/SmtpCommandTest.class

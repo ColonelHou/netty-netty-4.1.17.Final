@@ -1,0 +1,6 @@
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregatorTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageResponseTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheMessageTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageRequestTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheDecoderTest.java
+/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheEncoderTest.java

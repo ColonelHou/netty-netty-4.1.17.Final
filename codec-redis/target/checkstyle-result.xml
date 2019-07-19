@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/AbstractStringRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/ArrayHeaderRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/ArrayRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/BulkStringHeaderRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/BulkStringRedisContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/DefaultBulkStringRedisContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/DefaultLastBulkStringRedisContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/ErrorRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/FixedRedisMessagePool.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/FullBulkStringRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/IntegerRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/LastBulkStringRedisContent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisArrayAggregator.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisBulkStringAggregator.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisCodecException.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisCodecUtil.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisConstants.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisDecoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisEncoder.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisMessagePool.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/RedisMessageType.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/main/java/io/netty/handler/codec/redis/SimpleStringRedisMessage.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/test/java/io/netty/handler/codec/redis/RedisCodecTestUtil.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/test/java/io/netty/handler/codec/redis/RedisDecoderTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/codec-redis/src/test/java/io/netty/handler/codec/redis/RedisEncoderTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/HttpProxyHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/ProxyConnectException.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/ProxyConnectionEvent.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/ProxyHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/Socks4ProxyHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/main/java/io/netty/handler/proxy/Socks5ProxyHandler.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/HttpProxyHandlerTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/HttpProxyServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/ProxyHandlerTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/ProxyServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/Socks4ProxyServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/Socks5ProxyServer.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/TestMode.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/handler-proxy/src/test/java/io/netty/handler/proxy/UnresponsiveHandler.java">
+</file>
+</checkstyle>

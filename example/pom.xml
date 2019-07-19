@@ -139,6 +139,26 @@
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcprov-jdk15on</artifactId>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java-util -->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java-util</artifactId>
+      <version>3.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift
+     生成用0.12.0 所以必须用0.12.0的jar
+     -->
+    <dependency>
+      <groupId>org.apache.thrift</groupId>
+      <artifactId>libthrift</artifactId>
+      <version>0.12.0</version>
+    </dependency>
   </dependencies>
 
   <build>

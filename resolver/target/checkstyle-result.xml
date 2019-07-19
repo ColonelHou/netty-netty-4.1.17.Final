@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/AbstractAddressResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/AddressResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/AddressResolverGroup.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/CompositeNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/DefaultAddressResolverGroup.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/DefaultHostsFileEntriesResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/DefaultNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/HostsFileEntries.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/HostsFileEntriesResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/HostsFileParser.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/InetNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/InetSocketAddressResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/NameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/NoopAddressResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/NoopAddressResolverGroup.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/package-info.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/ResolvedAddressTypes.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/RoundRobinInetAddressResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/main/java/io/netty/resolver/SimpleNameResolver.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/test/java/io/netty/resolver/DefaultHostsFileEntriesResolverTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/test/java/io/netty/resolver/HostsFileParserTest.java">
+</file>
+<file name="/Users/houningning/Documents/opensource/netty/4.1/code/netty-netty-4.1.17.Final/resolver/src/test/java/io/netty/resolver/InetSocketAddressResolverTest.java">
+</file>
+</checkstyle>
